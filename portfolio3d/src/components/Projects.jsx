@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "../data";
 import ProjectSigil from "./ProjectSigil";
+import HalftoneReveal from "./HalftoneReveal";
 
 /**
  * Maps a project tag string to:
@@ -49,6 +50,35 @@ export default function Projects({ onOpenCLI }) {
           Real-world platforms spanning offensive cybersecurity ranges, multi-agent shop-floor
           copilots, and full-stack enterprise portals.
         </p>
+      </div>
+
+      <div className="projects-featured-panel glass-panel">
+        <div className="projects-featured-copy">
+          <div className="section-tag">
+            <span className="section-tag-dot text-violet">SELECTED WORK</span>
+          </div>
+          <h3 className="projects-featured-title">AI systems, secure workflows, and product builds.</h3>
+          <p className="projects-featured-text">
+            I build practical tools for automation, operations, and security-focused product work,
+            turning complex ideas into usable systems that are easy to trust and easy to use.
+          </p>
+        </div>
+        <div className="projects-featured-art">
+          <HalftoneReveal
+            src="https://picsum.photos/seed/agentic-portfolio/1400/900"
+            inkColor="#1f1b2d"
+            paperColor="#fdf4ff"
+            mode="mono"
+            dotDensity={90}
+            angle={28}
+            revealRadius={0.28}
+            edge={0.82}
+            follow={0.3}
+            dotSize={1.1}
+            trigger="hover"
+            borderRadius="18px"
+          />
+        </div>
       </div>
 
       <div className="projects-grid">

@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "npm install --prefix portfolio3d",
+  "buildCommand": "npm run build --prefix portfolio3d",
+  "outputDirectory": "portfolio3d/dist"
+}
