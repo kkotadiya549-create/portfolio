@@ -182,64 +182,86 @@
 
 .tech-loop-shell {
   margin-bottom: 32px;
-  padding: 14px 18px 18px;
-  border-radius: 18px;
-  border: 1px solid rgba(110, 123, 255, 0.22);
-  background: rgba(12, 16, 22, 0.66);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 18px 40px rgba(15, 23, 42, 0.22);
+  padding: 18px 18px 20px;
+  border-radius: 22px;
+  border: 1px solid rgba(143, 170, 255, 0.18);
+  background: linear-gradient(180deg, rgba(6, 10, 16, 0.92), rgba(9, 13, 19, 0.8));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 18px 36px rgba(2, 6, 23, 0.28),
+    0 0 0 1px rgba(32, 42, 58, 0.4);
 }
 
 .tech-loop-header {
-  margin-bottom: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  color: #dfe9ff;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 0 6px;
 }
 
 .tech-loop-title {
   font-family: "JetBrains Mono", monospace;
   font-size: 11px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #a5b4cf;
+  color: #dfe9ff;
+  font-weight: 600;
 }
 
 .tech-loop-badge {
-  border: 1px solid rgba(118, 221, 207, 0.28);
-  color: #8df0df;
-  background: rgba(16, 185, 129, 0.08);
-  padding: 6px 8px;
+  border: 1px solid rgba(110, 231, 183, 0.28);
+  color: #9beed8;
+  background: rgba(17, 24, 39, 0.72);
+  padding: 9px 14px;
   border-radius: 999px;
-  font-size: 10px;
-  letter-spacing: 0.12em;
+  font-size: 9px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  font-family: "JetBrains Mono", monospace;
+  box-shadow: inset 0 0 0 1px rgba(110, 231, 183, 0.1);
 }
 
 .logo-chip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 40px;
+  min-height: 38px;
   padding: 10px 18px;
   border-radius: 999px;
   border: 1px solid rgba(148, 163, 184, 0.28);
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(168, 85, 247, 0.12));
-  color: #ecf3ff;
+  background: rgba(10, 17, 27, 0.9);
+  color: #eef4ff;
   font-family: "JetBrains Mono", monospace;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    inset 0 0 0 1px rgba(148, 163, 184, 0.06),
+    0 8px 18px rgba(15, 23, 42, 0.12);
+  white-space: nowrap;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.logoloop {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.logoloop__track {
+  padding: 4px 0 2px;
 }
 
 .logoloop--scale-hover .logo-chip {
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .logoloop--scale-hover .logo-chip:hover {
-  border-color: rgba(110, 231, 183, 0.4);
-  box-shadow: 0 0 24px rgba(59, 130, 246, 0.18);
+  border-color: rgba(110, 231, 183, 0.42);
+  background: rgba(11, 17, 25, 0.98);
+  box-shadow: 0 0 0 1px rgba(110, 231, 183, 0.18), 0 16px 28px rgba(45, 212, 191, 0.08);
 }

@@ -4,8 +4,10 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Lightfall from "./components/Lightfall";
 
 function playSystemTone({ frequency = 520, duration = 0.09, type = "triangle", gain = 0.015 }) {
   if (typeof window === "undefined") return;
@@ -68,6 +70,28 @@ export default function App() {
 
   return (
     <div className="portfolio-app-root">
+      <div className="lightfall-bg" aria-hidden="true">
+        <Lightfall
+          colors={["#dff7ff", "#7dd3fc", "#8b5cf6", "#f9a8d4", "#5eead4"]}
+          backgroundColor="#040b1d"
+          speed={1.1}
+          streakCount={7}
+          streakWidth={1.1}
+          streakLength={1.2}
+          glow={2.4}
+          density={1.1}
+          twinkle={0.9}
+          zoom={1.5}
+          backgroundGlow={1.0}
+          opacity={1}
+          mouseInteraction={true}
+          mouseStrength={0.75}
+          mouseRadius={0.8}
+          mouseDampening={0.18}
+          mixBlendMode="screen"
+        />
+      </div>
+
       <div className="ambient-bg" aria-hidden="true">
         <div className="ambient-grid" />
         <div className="ambient-orb orb-one" />
@@ -84,6 +108,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Achievements />
         <Experience />
         <Contact />
       </main>

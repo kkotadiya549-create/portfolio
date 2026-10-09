@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollReveal from "./ScrollReveal";
 import { profile } from "../data";
 
 export default function About() {
@@ -8,7 +9,16 @@ export default function About() {
         <div className="section-tag">
           <span className="section-tag-dot text-teal">01</span> SYSTEM DOSSIER
         </div>
-        <h2 className="section-title">AI systems, hardened by design.</h2>
+        <ScrollReveal
+          baseOpacity={0.1}
+          enableBlur={true}
+          baseRotation={3}
+          blurStrength={4}
+          containerClassName="about-reveal-title"
+          textClassName="section-title"
+        >
+          AI systems, hardened by design.
+        </ScrollReveal>
         <p className="section-subtitle">
           I build agentic workflows and software products from the ground up, then stress-test them
           from the outside to make sure they remain dependable, secure, and useful.

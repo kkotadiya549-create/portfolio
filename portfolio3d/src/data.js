@@ -86,6 +86,21 @@ export const projects = [
     stack: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://larnhub.vercel.app",
   },
+
+    {
+        name: "Multi-Agent AI Company Tool",
+        tag: "AI / Agentic",
+        description: "An AI company where specialized agents act like employees, each producing outputs (websites, posters, content) in parallel instead of a single chatbot handling one prompt at a time. Built with open-source tools.",
+        stack: ["Python", "LangChain", "LangGraph", "n8n", "Node.js", "React"],
+        link: "https://github.com/kkotadiya549-create/multi-agent-company-tool",
+    },
+    {
+        name: "EV Charging Guard",
+        tag: "Automation / Security",
+        description: "An n8n-driven EV charging scheduler that starts or pauses charging based on off‑peak tariffs and grid load, adding HMAC‑signed commands, append‑only logging, and anomaly alerts via Telegram.",
+        stack: ["Python", "FastAPI", "python-ocpp", "WebSockets", "SQLite", "Postgres", "n8n", "React", "Vite", "Tailwind CSS"],
+        link: "https://github.com/kkotadiya549-create/ev-charging-guard",
+    },
 ];
 
 export const resume = [
@@ -118,6 +133,134 @@ export const experience = [
     period: "Graduating 2027",
     description:
       "Coursework in computer science and IT, paired with a self-directed roadmap covering Python, LLMs, LangChain, LangGraph, n8n, and multi-agent systems.",
+  },
+  
+];
+export const achievements = [
+  {
+    title: "Android App Components — Intents, Activities, Services & Locations",
+    issuer: "Android Development",
+    year: "2025",
+    category: "Android Development",
+  },
+
+  {
+    title: "Android App Development",
+    issuer: "Android Development",
+    year: "2025",
+    category: "Android Development",
+  },
+
+  {
+    title: "AWS",
+    issuer: "AWS",
+    year: "2025",
+    category: "Cloud Computing",
+  },
+
+  {
+    title: "BCG X gen ai internship",
+    issuer: "BCG X",
+    year: "2026",
+    category: "Business & Technology",
+  },
+
+  {
+    title: "AI for Brainstorming",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Artificial Intelligence",
+  },
+
+  {
+    title: "AI Fundamentals",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Artificial Intelligence",
+  },
+
+  {
+    title: "App Building",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Application Development",
+  },
+
+  {
+    title: "Data Analysis",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Data Science",
+  },
+
+  {
+    title: "Google AI",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Artificial Intelligence",
+  },
+
+  {
+    title: "Research & Insights",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Research",
+  },
+
+  {
+    title: "Writing & Communication",
+    issuer: "Coursera",
+    year: "2026",
+    category: "Professional Skills",
+  },
+
+  {
+    title: "Digital Marketing",
+    issuer: "Digital Marketing",
+    year: "2025",
+    category: "Marketing",
+  },
+
+  {
+    title: "Engineering Maintainable Android Apps",
+    issuer: "Android Development",
+    year: "2025",
+    category: "Android Development",
+  },
+
+  {
+    title: "Accenture data analytics internship",
+    issuer: "Accenture",
+    year: "2026",
+    category: "Professional Development",
+  },
+
+  {
+    title: "Java for Android",
+    issuer: "Android Development",
+    year: "2025",
+    category: "Android Development",
+  },
+
+  {
+    title: "Linear Algebra",
+    issuer: "Mathematics",
+    year: "2025",
+    category: "AI/ML Foundation",
+  },
+
+  {
+    title: "Software Engineering",
+    issuer: "wells fargo",
+    year: "2026",
+    category: "Software Engineering",
+  },
+
+  {
+    title: "Tata data analytics internship",
+    issuer: "Tata",
+    year: "2026",
+    category: "Professional Development",
   },
 ];
 

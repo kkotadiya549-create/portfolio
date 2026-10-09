@@ -2,8 +2,8 @@
   "name": "portfolio-root",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npm run dev --prefix portfolio3d",
-    "build": "npm run build --prefix portfolio3d",
+    "dev": "npm --prefix portfolio3d run dev -- --host 0.0.0.0",
+    "build": "npm --prefix portfolio3d run build",
     "install": "npm install --prefix portfolio3d"
   }
 }

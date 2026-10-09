@@ -83,7 +83,9 @@ export default function Contact({ onOpenCLI }) {
                 className="contact-channel-card"
               >
                 <div className="channel-icon-block">
-                  <span className="channel-sym font-mono">&gt;</span>
+                  <svg viewBox="0 0 24 24" className="brand-icon" aria-hidden="true">
+                    <path d="M6 18V6h2.7l4.1 6.2V6H15v12h-2.7L8.2 11.8V18H6Zm12 0V6h2v12h-2Z" fill="currentColor" />
+                  </svg>
                 </div>
                 <div className="channel-info">
                   <span className="channel-name">NeetCode</span>
@@ -99,7 +101,9 @@ export default function Contact({ onOpenCLI }) {
                 className="contact-channel-card"
               >
                 <div className="channel-icon-block">
-                  <span className="channel-sym font-mono">&gt;</span>
+                  <svg viewBox="0 0 24 24" className="brand-icon" aria-hidden="true">
+                    <path d="M12 2.1A9.9 9.9 0 0 0 8.5 21.7c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.5 1.2 3.1.9.1-.7.4-1.2.7-1.5-2.2-.2-4.5-1.1-4.5-4.8 0-1.1.4-2 .9-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.6-4.5 4.8.4.3.7.9.7 1.9v2.8c0 .3.2.7.7.5A9.9 9.9 0 0 0 12 2.1Z" fill="currentColor" />
+                  </svg>
                 </div>
                 <div className="channel-info">
                   <span className="channel-name">GitHub Matrix</span>
@@ -115,7 +119,9 @@ export default function Contact({ onOpenCLI }) {
                 className="contact-channel-card"
               >
                 <div className="channel-icon-block">
-                  <span className="channel-sym font-mono">&gt;</span>
+                  <svg viewBox="0 0 24 24" className="brand-icon" aria-hidden="true">
+                    <path d="M6.5 8.7A1.7 1.7 0 1 1 6.5 5.3a1.7 1.7 0 0 1 0 3.4ZM4.9 10.1h3.2v9H4.9v-9Zm5.4 0h3.1v1.2h.1c.4-.8 1.5-1.7 3.1-1.7 3.3 0 3.9 2.1 3.9 4.9v5.6h-3.2v-5.2c0-1.2 0-2.8-1.7-2.8-1.7 0-2 1.3-2 2.7v5.3H10.3v-9Z" fill="currentColor" />
+                  </svg>
                 </div>
                 <div className="channel-info">
                   <span className="channel-name">LinkedIn Dossier</span>
