@@ -1,4 +1,5 @@
 import React from "react";
+import LogoLoop from "./LogoLoop";
 import { skills } from "../data";
 
 export default function Skills() {
@@ -7,6 +8,21 @@ export default function Skills() {
     if (group.toLowerCase().includes("security")) return "amber";
     return "violet";
   };
+
+  const techLogos = [
+    { node: <span className="logo-chip">React</span>, title: "React" },
+    { node: <span className="logo-chip">Vite</span>, title: "Vite" },
+    { node: <span className="logo-chip">Node</span>, title: "Node.js" },
+    { node: <span className="logo-chip">Python</span>, title: "Python" },
+    { node: <span className="logo-chip">LangChain</span>, title: "LangChain" },
+    { node: <span className="logo-chip">LangGraph</span>, title: "LangGraph" },
+    { node: <span className="logo-chip">n8n</span>, title: "n8n" },
+    { node: <span className="logo-chip">MongoDB</span>, title: "MongoDB" },
+    { node: <span className="logo-chip">Tailwind</span>, title: "Tailwind CSS" },
+    { node: <span className="logo-chip">Kotlin</span>, title: "Kotlin" },
+    { node: <span className="logo-chip">AI</span>, title: "AI Systems" },
+    { node: <span className="logo-chip">Security</span>, title: "Security" },
+  ];
 
   return (
     <section className="section-container" id="skills">
@@ -19,6 +35,27 @@ export default function Skills() {
           Autonomous orchestration platforms, secure API architectures, and simulated attack
           environments.
         </p>
+      </div>
+
+      <div className="tech-loop-shell">
+        <div className="tech-loop-header">
+          <span className="tech-loop-title">Core stack</span>
+          <span className="tech-loop-badge">Live build</span>
+        </div>
+        <LogoLoop
+          logos={techLogos}
+          speed={68}
+          direction="left"
+          logoHeight={42}
+          gap={18}
+          hoverSpeed={30}
+          pauseOnHover
+          fadeOut
+          fadeOutColor="#0b1017"
+          scaleOnHover
+          ariaLabel="Technology stack marquee"
+          className="tech-loop"
+        />
       </div>
 
       <div className="skills-grid">
